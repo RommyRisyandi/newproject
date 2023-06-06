@@ -18,4 +18,4 @@ Browser Support
 
 License
 ------------
-**NEWPROJECT - Site Template** is an paid source project that is created by AR3
+**NEWPROJECT - Site Template** is an open source project that is created by AR3

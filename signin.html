@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Always include this line of code -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Create Icon Work to all OS -->
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script defer src="js/script.js"></script>
+
+    <title>Sign In Page</title>
+  </head>
+  <body>
+    <div class="lds-spinner ids-spinner--hidden">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <header class="header">
+      <a href="index.html">
+        <img class="logo" src="img/YOUR LOGO.png" alt="Your Logo" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="index.html">Home</a></li>
+          <li><a class="main-nav-link" href="about.html">About us</a></li>
+          <li><a class="main-nav-link" href="contact.html">Contact us</a></li>
+          <li>
+            <a class="main-nav-link nav-cta" href="signin.html">Sign in</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Sign In</h2>
+              <p class="cta-text">Sign in if you want to get more!</p>
+              <form action="#" class="cta-form">
+                <div>
+                  <label for="email">E-MAIL</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="Enter Your E-mail"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="password">PASSWORD</label>
+                  <input
+                    id="password"
+                    type="password"
+                    placeholder="Enter Your Password"
+                    required
+                  />
+                </div>
+                <button class="btn btn--form">SIGN IN</button>
+                <div class="register">
+                  <label
+                    >DON'T HAVE ACCOUNT YET :
+                    <a class="register-link" href="register.html"
+                      >REGISTER HERE!</a
+                    ></label
+                  >
+                </div>
+              </form>
+            </div>
+            <div class="cta-img-box" role="img" aria-label="Website"></div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container grid grid--footer">
+          <div class="logo-col">
+            <a href="index.html" class="footer-logo">
+              <img src="img/YOUR LOGO.png" alt="Your Logo" class="logo" />
+            </a>
+            <ul class="social-links">
+              <li>
+                <a href="#" class="footer-link"
+                  ><ion-icon
+                    class="social-icon"
+                    name="logo-instagram"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="footer-link"
+                  ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="footer-link"
+                  ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+                ></a>
+              </li>
+            </ul>
+
+            <p class="copyright">
+              Copyright &copy; <span class="year">2023</span> by Newproject,
+              inc. All right reserved.
+            </p>
+          </div>
+          <div class="address-col">
+            <p class="footer-heading">Contact us</p>
+            <address class="contacts">
+              <p class="address">
+                Address : 887 Harison st., 3rd Floor, San Francisco, CA 94107
+              </p>
+              <a href="tel:415-201-6370" class="footer-link">415-201-6370</a
+              ><br />
+              <a href="mailto:hello@newproject.com" class="footer-link"
+                >hello@newproject.com</a
+              >
+            </address>
+          </div>
+          <nav class="nav-col">
+            <p class="footer-heading">Account</p>
+            <ul class="footer-nav">
+              <li><a href="#" class="footer-link">Create account</a></li>
+              <li><a href="#" class="footer-link">Sign in</a></li>
+              <li><a href="#" class="footer-link">iOS app</a></li>
+              <li><a href="#" class="footer-link">Android app</a></li>
+            </ul>
+          </nav>
+
+          <div class="subs-col">
+            <p class="footer-heading">Subscribe Newsletter</p>
+            <p class="footer-description">
+              Subscribe newsletter to get updates about new Website.
+            </p>
+            <form class="footer-form">
+              <div>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="Your E-mail"
+                  required
+                />
+              </div>
+              <br />
+              <div>
+                <a href="#subscribe" class="btn btn--subs"> Subscribe </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

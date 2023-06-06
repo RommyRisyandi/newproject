@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Always include this line of code -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Create Icon Work to all OS -->
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script defer src="js/script.js"></script>
+
+    <title>Your Website Title Here</title>
+  </head>
+  <body>
+    <div class="lds-spinner ids-spinner--hidden">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <header class="header">
+      <a href="index.html">
+        <img class="logo" src="img/YOUR LOGO.png" alt="Your Logo" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="index.html">Home</a></li>
+          <li><a class="main-nav-link" href="about.html">About us</a></li>
+          <li><a class="main-nav-link" href="contact">Contact us</a></li>
+          <li>
+            <a class="main-nav-link nav-cta" href="signin.html">Sign in</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Your sub title here</h1>
+            <p class="hero-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
+              omnis provident maxime? Quod, facilis corporis? Laborum rem,
+              expedita error dicta aliquam consectetur odit nulla repudiandae
+              impedit et sed inventore officia voluptatem sint nihil aliquid,
+              molestiae cum id? Repellendus corporis eligendi aspernatur dolor,
+              id nesciunt, consequuntur delectus eius quia cupiditate
+              voluptatum.
+            </p>
+            <a href="#signin" class="btn btn--full margin-right-sm"
+              >Start Website here!</a
+            >
+            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
+            <div class="person-web">
+              <div class="person-cust">
+                <img
+                  src="https://images.unsplash.com/photo-1504593811423-6dd665756598?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                  alt="Customer photo"
+                />
+                <img
+                  src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                  alt="Customer photo"
+                />
+                <img
+                  src="https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1153&q=80"
+                  alt="Customer photo"
+                />
+                <img
+                  src="https://images.unsplash.com/photo-1555952517-2e8e729e0b44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+                  alt="Customer photo"
+                />
+                <img
+                  src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1176&q=80"
+                  alt="Customer photo"
+                />
+              </div>
+              <p class="web-text">
+                <span>350,000+</span> client using a template!
+              </p>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <picture>
+              <source srcset="" type="image/webp" />
+              <source srcset="" type="image/jpg" />
+            </picture>
+
+            <img class="hero-img" src="img/Gambar web.png" alt="Random Event" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-carousel">
+        <div class="container">
+          <div class="carousel">
+            <ul class="slides">
+              <input type="radio" name="radio-buttons" id="img-1" checked />
+              <li class="slide-container">
+                <div class="slide-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                  />
+                </div>
+                <div class="carousel-controls">
+                  <label for="img-3" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-2" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <input type="radio" name="radio-buttons" id="img-2" />
+              <li class="slide-container">
+                <div class="slide-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+                  />
+                </div>
+                <div class="carousel-controls">
+                  <label for="img-1" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-3" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <input type="radio" name="radio-buttons" id="img-3" />
+              <li class="slide-container">
+                <div class="slide-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+                  />
+                </div>
+                <div class="carousel-controls">
+                  <label for="img-2" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-1" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <div class="carousel-dots">
+                <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container grid grid--footer">
+          <div class="logo-col">
+            <a href="index.html" class="footer-logo">
+              <img src="img/YOUR LOGO.png" alt="Your Logo" class="logo" />
+            </a>
+            <ul class="social-links">
+              <li>
+                <a href="#" class="footer-link"
+                  ><ion-icon
+                    class="social-icon"
+                    name="logo-instagram"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="footer-link"
+                  ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="footer-link"
+                  ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+                ></a>
+              </li>
+            </ul>
+
+            <p class="copyright">
+              Copyright &copy; <span class="year">2023</span> by Newproject,
+              inc. All right reserved.
+            </p>
+          </div>
+          <div class="address-col">
+            <p class="footer-heading">Contact us</p>
+            <address class="contacts">
+              <p class="address">
+                Address : 887 Harison st., 3rd Floor, San Francisco, CA 94107
+              </p>
+              <a href="tel:415-201-6370" class="footer-link">415-201-6370</a
+              ><br />
+              <a href="mailto:hello@newproject.com" class="footer-link"
+                >hello@newproject.com</a
+              >
+            </address>
+          </div>
+          <nav class="nav-col">
+            <p class="footer-heading">Account</p>
+            <ul class="footer-nav">
+              <li><a href="#" class="footer-link">Create account</a></li>
+              <li><a href="#" class="footer-link">Sign in</a></li>
+              <li><a href="#" class="footer-link">iOS app</a></li>
+              <li><a href="#" class="footer-link">Android app</a></li>
+            </ul>
+          </nav>
+
+          <div class="subs-col">
+            <p class="footer-heading">Subscribe Newsletter</p>
+            <p class="footer-description">
+              Subscribe newsletter to get updates about new Website.
+            </p>
+            <form class="footer-form">
+              <div>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="Your E-mail"
+                  required
+                />
+              </div>
+              <br />
+              <div>
+                <a href="#subscribe" class="btn btn--subs"> Subscribe </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

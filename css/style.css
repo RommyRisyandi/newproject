@@ -461,7 +461,7 @@
   border-radius: 20%;
   background: #2702f8;
 }
-.ids-spinner--hidden {
+.lds-spinner--hidden {
   opacity: 0;
   visibility: hidden;
 }
